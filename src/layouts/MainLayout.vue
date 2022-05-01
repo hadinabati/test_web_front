@@ -73,7 +73,7 @@
             </q-item-section>
 
             <q-item-section style="font-family: mytanha">
-              مدرسه
+            <router-link to="/schools" style="text-decoration: none ; color: black" >مدرسه</router-link>
             </q-item-section>
           </q-item>
 
@@ -83,7 +83,7 @@
             </q-item-section>
 
             <q-item-section style="font-family: mytanha">
-              کتاب ها
+              <router-link to="/books" style="text-decoration: none ; color: black" >کتاب</router-link>
             </q-item-section>
           </q-item>
 
